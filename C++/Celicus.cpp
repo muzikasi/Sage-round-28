@@ -11,7 +11,7 @@ int main () {
 	cout<<"Enter Celicus :";
 	cin>>fc;
     
-    fcSum = (fc * 1.8)+32;
+    fcSum = (fc * 1.8) + 32;
     
     cout<<"Result: "<<fcSum;
 	

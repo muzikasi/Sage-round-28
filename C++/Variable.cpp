@@ -15,7 +15,7 @@ int main (){
 	cout << "Age :" <<age<<endl;	
     cout << "Hight :" <<hight<<endl;
     cout << "Grade :" <<grade<<endl;
-    cout << "Bool :" << pass<<endl;
+    cout << "Pass :" << pass<<endl;
 	cout <<"Name :" << name<<endl;
 	cout << "Pi :"<<Pi;		
 	return 0;	
