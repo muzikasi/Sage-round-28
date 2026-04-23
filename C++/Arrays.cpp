@@ -10,7 +10,7 @@ int main (){
 	numbers[3] = 100;
 	cout<<numbers[3]<<endl;;
 	
-	for(int i=0; i<= 4; i++){
+	for(int i=0; i<=4; i++){
 		
 		cout<<numbers[i]<<endl;
 	
