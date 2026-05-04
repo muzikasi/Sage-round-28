@@ -14,7 +14,7 @@ double subtraction(double a, double b){
 double div(double a, double b){
     if(b == 0){
         cout << "Error! Division by zero." << endl;
-        return 0;
+        return 0; 
     }
     return a / b;
 }
