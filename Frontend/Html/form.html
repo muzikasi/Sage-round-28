@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <h1>Form </h1>
+
+    <!--Form-->
+    <form method="get">
+        <br>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+        <br>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password">
+
+        <p>please select your gender</p>
+        <input type="radio" name="gender" id="male"  value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <br>
+        <br>
+        
+        <!--Drop Down-->
+        <label for="">Country: </label>
+        <select name="country" id="Country" required>
+            <option value="" disabled selected>Choose an option</option>
+            <option value="eth">Ethiopia</option>
+            <option value="usa">United State</option>
+            <option value="uk">United Kingdom</option>
+            <option value="pl">Poland</option>
+            <option value="ca">Canada</option>
+            <option value="uea">UEA</option>
+        </select>
+
+        <!--Check box-->
+        <p>Please select your hobby</p>
+        <label for="sport">Sport</label>
+        <input type="checkbox" id="sport" name="hobby" value="sport">
+
+        <label for="art">art</label>
+        <input type="checkbox" id="art" name="hobby" value="art">
+
+        <label for="music">music</label>
+        <input type="checkbox" id="music" name="hobby" value="music">
+        
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="gaming" name="hobby" value="gaming">
+
+
+        <br/>
+        <br/>
+
+        <!--Textarea-->
+        <label for="">Comments:</label>
+        <textarea name="comments" id="comments" rows="5" cols="21"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <!--Reset button to reset-->
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
