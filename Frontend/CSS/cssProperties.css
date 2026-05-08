@@ -1,0 +1,31 @@
+body{
+    background-image: url("./2026_bmw_m3_sedan_competition-xdrive_fq_oem_1_1600.jpg");
+    background-size: cover;
+}
+h1{
+    background-color: tomato;
+    color: white;
+    border-style: double dotted dashed solid;
+    border-width: 5px 7px 9px 11px;
+    border-color: aqua black ;
+    text-align: center;
+    text-decoration: underline green dashed 3px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 21px;
+
+}
+
+p{
+    color: green;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px violet;
+}

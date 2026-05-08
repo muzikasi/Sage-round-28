@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>HTML Media</title>
+</head>
+<body>
+
+    <img src="./2026_bmw_m3_sedan_competition-xdrive_fq_oem_1_1600.jpg" alt="BMW M3" width="720px" >
+    <video controls muted width="720px" poster="./2026_bmw_m3_sedan_competition-xdrive_fq_oem_1_1600.jpg">
+        <source src="./Video.mp4" type="video/mp4"/>
+    </video>
+
+    <audio controls autoplay>
+        <source src="./horse.ogg"/>
+    </audio>
+
+    <iframe width="700px" height="400px" src="https://www.sageethiopia.com"></iframe>
+
+    <canvas></canvas>
+
+    <script>
+        
+        let c = document.getElementById("myCanvas");
+        let ctx = c.getContext("2d")
+        ctx.moveTo(0, 50);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
+
+    <svg width="100" hight="100">
+        <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke ="green"
+        stroke-width="4"
+        fill="yellow"
+
+        ></circle>
+    </svg>
+</body>
+</html>
