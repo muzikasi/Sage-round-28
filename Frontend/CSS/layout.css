@@ -1,0 +1,96 @@
+h1{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+
+a{
+    background-color: brown;
+    display: block;
+    position: sticky;
+    top: 50px;
+}
+
+.box1{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 3;
+}
+
+.box2{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    display: inline-block;
+    z-index: 2;
+    
+}
+
+.box3{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;  
+    display: inline-block;
+    z-index: 1;
+}
+
+.mainbox{
+    background-color: dimgray;
+    position: relative;
+}
+
+.mainbox1{
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+}
+
+.mainbox2{
+    background-color: lime;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mainbox3{
+    background-color: seagreen;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.goToTop{
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+ 
+.spacing{
+    background-color: aqua;
+    display: inline-block;
+    margin: 10px 20px 30px 40px; 
+    padding: 10px 20px 30px 40px;
+}
+
+.minAndMax{
+    background-color: blueviolet;
+    min-width: 400px;
+    max-width: 500px;
+
+}
+
+ul{
+    list-style-type: lower-roman;
+}
