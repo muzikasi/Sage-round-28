@@ -1,0 +1,54 @@
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: yellowgreen;
+}
+
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: blue;
+}
+
+.box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.box:hover{
+    background-color: aquamarine;
+}
+
+.mainBox{
+    background-color: blueviolet;
+}
+
+.mainBox .box:first-child{
+    background-color: crimson;
+}
+
+.mainBox .box:first-child:hover{
+    background-color: black;
+}
+
+p::first-line{
+    color: blue;
+}
+
+h1::before{
+    content: '! ';
+}
+
+h1::after{
+    content: '!';
+}
+P::selection{
+    background-color: deeppink;
+}
