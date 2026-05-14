@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.rightSide{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.linkBox{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: rgb(160, 155, 155);
+}
+
+
+.buttonBox{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin:  0 90px;
+}
+
+.linkButton{
+    color: rgb(160, 155, 155);
+    text-decoration: none;
+}
+
+.button{
+    color: white;
+    background-color: #54BD95;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+.logo{
+    margin-left: 58px;
+    color: rgb(21, 177, 177);
+}
+
+.heroText{
+    margin-left: 58px;
+}
+.Vector{
+    width: 469px;
+}
+
+.heroSubText{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.heroButton{
+    display: flex;
+    margin-left: 58px;
+    align-items: center;
+    gap:100px ;
+    
+}
+
+.buttonHero{
+    color: white;
+    background-color: #54BD95;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 18px;
+
+}
+
+.outlineButton {
+    font-weight: 490;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.heroBox2{
+    width: 555px;
+    height: 578px;
+
+}
+
+.iconButton{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.image{
+    width: 701;
+    height: ;
+}
