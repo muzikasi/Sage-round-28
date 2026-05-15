@@ -93,9 +93,9 @@ body{
 }
 
 .heroBox2{
-    width: 555px;
-    height: 578px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .iconButton{
@@ -105,6 +105,26 @@ body{
 }
 
 .image{
-    width: 701;
-    height: ;
+    width: 700px;
+    height: auto;
+}
+
+.bottomBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subText{
+    text-align: center;
+}
+
+.logoImage{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.iconImage{
+    height: 36px;
 }
