@@ -8,8 +8,8 @@ export default function App(){
     <button onClick={()=> {setCounter(counter-1)}}>Subtract</button>
     <button onClick={()=> {setCounter(0)}}>Reset</button>
 
-    <h1>ON</h1>
-    <button onClick={()=> {if(text="ON"){}}}>ON</button>
+    <h1>{text}</h1>
+    <button onClick={()=> {if(text="ON")}}>ON</button>
     <button onClick={()=> {setText(text ="OFF")}} >OFF</button>
 
     </>
