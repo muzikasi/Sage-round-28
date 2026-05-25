@@ -9,8 +9,8 @@ export default function App(){
     <button onClick={()=> {setCounter(0)}}>Reset</button>
 
     <h1>{text}</h1>
-    <button onClick={()=> {if(text="ON")}}>ON</button>
-    <button onClick={()=> {setText(text ="OFF")}} >OFF</button>
+    <button onClick={() => setText("ON")}>ON</button>
+    <button onClick={()=> setText("OFF")} >OFF</button>
 
     </>
 }
