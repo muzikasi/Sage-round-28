@@ -3,13 +3,16 @@ import { useState } from "react";
 export default function Form() {
   const [fullName, setFullName] = useState("");
   const [age, setAge] = useState("");
-  const [hobby, setHobby] = useState("");
+  const [hobby, setHobby] = useState([]);
   const [country, setCountry] = useState("");
   const [email, setEmail] = useState("");
+  const [gender, setGender] = useState("");
 
-  function handleHobby(e) {
-    if (e.target.checked) {
-      setHobby(e.target.value);
+  function handleCheckBox (e) {
+    if(e.target.checked){
+      setHobby((prev)=> ([...prev,e.target.value]))
+    }else{
+      setHobby((prev)=>prev.filter((v)=> (v != e.target.name)))
     }
   }
 
@@ -18,9 +21,11 @@ export default function Form() {
 
     alert(`Your full name is ${fullName}`);
     alert(`Your age is ${age}`);
+    alert(`Your email is ${email}`);
     alert(`Your hobby is ${hobby}`);
     alert(`Your country is ${country}`);
-    alert(`Your email is ${email}`);
+    alert(`Your gender is ${gender}`);
+
   }
 
   return (
@@ -78,10 +83,10 @@ export default function Form() {
         {/* Gender */}
         <p>Please select your gender</p>
 
-        <input type="radio" name="gender" id="male" value="male" />
+        <input type="radio" name="gender" id="male" value="male" onChange={(e) => setGender(e.target.value)} />
         <label htmlFor="male">Male</label>
 
-        <input type="radio" name="gender" id="female" value="female" />
+        <input type="radio" name="gender" id="female" value="female" onChange={(e) => setGender(e.target.value)} />
         <label htmlFor="female">Female</label>
 
         <br />
@@ -116,7 +121,7 @@ export default function Form() {
           type="checkbox"
           id="sport"
           value="Sport"
-          onChange={handleHobby}
+          onChange={handleCheckBox}
         />
 
         <label htmlFor="art">Art</label>
@@ -124,7 +129,7 @@ export default function Form() {
           type="checkbox"
           id="art"
           value="Art"
-          onChange={handleHobby}
+          onChange={handleCheckBox}
         />
 
         <label htmlFor="music">Music</label>
@@ -132,7 +137,7 @@ export default function Form() {
           type="checkbox"
           id="music"
           value="Music"
-          onChange={handleHobby}
+          onChange={handleCheckBox}
         />
 
         <label htmlFor="gaming">Gaming</label>
@@ -140,7 +145,7 @@ export default function Form() {
           type="checkbox"
           id="gaming"
           value="Gaming"
-          onChange={handleHobby}
+          onChange={handleCheckBox}
         />
 
         <br />
