@@ -1,10 +1,9 @@
-import { Outlet } from "react-router-dom"
-import NavBar from "../components/NavBar"
-
+import {useParams} from "react-router-dom"
+import Courses from "./Courses"
 export default function CoursesDetail(){
+    const {name}=useParams()
     return <>
-        <NavBar/>
-        <Outlet/>
-        <h1>English Course from details</h1>
+        
+        <h1>This is {name} Subject</h1>
     </>
 }
