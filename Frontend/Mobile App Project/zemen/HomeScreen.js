@@ -31,6 +31,16 @@ export default function HomeScreen({navigation}){
         }}
         title="Go to  Screen ApiCall"
         onPress={()=>navigation.navigate("ApiCall")}
+
         />
+
+         <Button
+        style={{
+            padding:10,
+            margin:10
+            
+        }}
+        title="Go to  Counter"
+        onPress={()=>navigation.navigate("CounterScreen")}/>
     </View>
 }
